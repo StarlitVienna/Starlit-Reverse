@@ -35,8 +35,6 @@ def start(s):
         if not check_data(s):
             received = False
         while not received:
-            #print("NOT")
-            #print(check_data(s))
             if check_data(s):
                 received = True
         output = receiver(s)
